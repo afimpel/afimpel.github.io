@@ -9,6 +9,7 @@
     "actuality": true,
     "egress": "0000-00-00T00:00:00Z",
     "filename": "viabariloche.md",
+    "link": "viabariloche",
     "languaje": {
       "code": "CodeIgnater",
       "php": 7,
@@ -27,6 +28,7 @@
     "actuality": true,
     "egress": "0000-00-00T00:00:00Z",
     "filename": "afimpelcom.md",
+    "link": "afimpelcom",
     "languaje": {},
     "works": [
       {
@@ -36,6 +38,7 @@
         "actuality": true,
         "egress": "0000-00-00T00:00:00Z",
         "filename": "radiourdi.md",
+        "link": "radiourdi",
         "icons": "php",
         "website": "//www.radiourdi.com.ar",
         "languaje": {

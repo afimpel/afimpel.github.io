@@ -4,6 +4,7 @@
     "city": "C.A.B.A.",
     "type": "Programación",
     "icons": "dialpad",
+    "link": "idetel",
     "courses": [
       {
         "name": "Telefoniaip bajo sistemas de codigo abierto (Asterix)",
@@ -18,6 +19,7 @@
     "city": "C.A.B.A.",
     "type": "Programación",
     "icons": "code",
+    "link": "educacionit",
     "courses": [
       {
         "name": "Introducción a UX",
@@ -93,6 +95,7 @@
     "city": "C.A.B.A.",
     "type": "Programación",
     "icons": "code",
+    "link": "itmaster",
     "courses": [
       {
         "name": "Android Developer",
@@ -114,6 +117,7 @@
     "city": "C.A.B.A.",
     "type": "Idiomas",
     "icons": "translate",
+    "link": "icana",
     "courses": [
       {
         "name": "Elementary 1 intensivo",
@@ -128,6 +132,7 @@
     "city": "C.A.B.A.",
     "type": "Tecnicatura",
     "icons": "code",
+    "link": "davinci",
     "courses": [
       {
         "name": "Diseño y Administración de Sitios Web",
@@ -142,6 +147,7 @@
     "city": "Urdinarrain, Entre Ríos",
     "type": "Tecnicatura",
     "icons": "code",
+    "link": "silose",
     "courses": [
       {
         "name": "Urdinarrain, Entre Ríos",
@@ -156,6 +162,7 @@
     "city": "Urdinarrain, Entre Ríos",
     "type": "Secundaria",
     "icons": "code",
+    "link": "epnmn18",
     "courses": [
       {
         "name": "Técnico Profesional y Personal en informática",
