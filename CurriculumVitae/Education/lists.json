@@ -150,7 +150,7 @@
     "link": "silose",
     "courses": [
       {
-        "name": "Urdinarrain, Entre Ríos",
+        "name": "Técnico Profesional y Personal en informática",
         "entry": "2001-03-01T19:00:00Z",
         "actuality": false,
         "egress": "2003-12-30T19:00:00Z"
@@ -165,7 +165,7 @@
     "link": "epnmn18",
     "courses": [
       {
-        "name": "Técnico Profesional y Personal en informática",
+        "name": "Producción de Bienes y Servicios",
         "entry": "1999-03-01T19:00:00Z",
         "actuality": false,
         "egress": "2003-12-30T19:00:00Z"
