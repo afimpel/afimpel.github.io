@@ -35,6 +35,7 @@
         "name": "Radio Factory FM 100.1",
         "city": "Urdinarrain, Entre Ríos",
         "entry": "2001-03-01T09:00:00Z",
+        "jobs": "Software Engineer",
         "actuality": true,
         "egress": "0000-00-00T00:00:00Z",
         "filename": "radiourdi.md",
