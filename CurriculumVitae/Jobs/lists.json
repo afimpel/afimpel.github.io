@@ -13,9 +13,9 @@
     "languaje": {
       "code": "CodeIgnater",
       "php": 7,
+      "javascript": "jQuery",
       "css": "bootstrap",
-      "storage": "MsSQL",
-      "javascript": "jQuery"
+      "storage": "MsSQL"
     }
   },
   {
@@ -49,7 +49,131 @@
           "storage": "MySQL",
           "javascript": "AngulaJS"
         }
+      },
+      {
+        "name": "PortServices SH.",
+        "city": "C.A.B.A.",
+        "entry": "2011-10-01T09:00:00Z",
+        "jobs": "Software Engineer",
+        "actuality": true,
+        "egress": "0000-00-00T00:00:00Z",
+        "filename": "portservices.md",
+        "link": "portservices",
+        "icons": "php",
+        "website": "//www.portservices.com.ar",
+        "languaje": {}
       }
     ]
+  },
+  {
+    "name": "INGENIA CA",
+    "city": "C.A.B.A.",
+    "jobs": "Desarrollo FullStack",
+    "type": "Crontato (Remoto)",
+    "icons": "php",
+    "entry": "2021-05-01T09:00:00Z",
+    "actuality": false,
+    "egress": "2021-08-31T22:00:00Z",
+    "filename": "ingenia.md",
+    "link": "ingenia",
+    "languaje": {
+      "code": "Prestashop",
+      "php": 7,
+      "javascript": "jQuery",
+      "css": "bootstrap",
+      "storage": "MySQL"
+    }
+  },
+  {
+    "name": "Zeus TechnologyGroup SA",
+    "city": "C.A.B.A.",
+    "jobs": "Desarrollo FullStack",
+    "type": "Tiempo Completo",
+    "icons": "javascript",
+    "entry": "2018-06-01T09:00:00Z",
+    "actuality": false,
+    "egress": "2019-02-28T19:00:00Z",
+    "filename": "zeus.md",
+    "link": "zeus",
+    "languaje": {
+      "code": "express",
+      "javascript": "node 9.11.1",
+      "storage": "MongoDB 4.0.5"
+    }
+  },
+  {
+    "name": "Recupero Integral SRL.",
+    "city": "C.A.B.A.",
+    "jobs": "Jefe Desarrollo de software PHP",
+    "type": "Tiempo Completo",
+    "icons": "php",
+    "entry": "2017-07-01T09:00:00Z",
+    "actuality": false,
+    "egress": "2018-05-30T19:00:00Z",
+    "filename": "rintegral.md",
+    "link": "rintegral",
+    "languaje": {
+      "code": "Smarty PHP",
+      "php": 7,
+      "javascript": "jQuery",
+      "css": "bootstrap",
+      "storage": "MySQL"
+    }
+  },
+  {
+    "name": "InterPLAN SA.",
+    "city": "C.A.B.A.",
+    "jobs": "Desarrollo de software PHP",
+    "type": "Tiempo Completo",
+    "icons": "php",
+    "entry": "2016-12-01T09:00:00Z",
+    "actuality": false,
+    "egress": "2017-01-30T19:00:00Z",
+    "filename": "interplan.md",
+    "link": "interplan",
+    "languaje": {
+      "code": "CodeIgnater",
+      "php": 5.6,
+      "javascript": "jQuery",
+      "css": "bootstrap",
+      "storage": "MySQL"
+    }
+  },
+  {
+    "name": "DynaGroup SA.",
+    "city": "C.A.B.A.",
+    "jobs": "Desarrollo de software PHP",
+    "type": "Tiempo Completo",
+    "icons": "php",
+    "entry": "2008-03-01T09:00:00Z",
+    "actuality": false,
+    "egress": "2008-10-30T19:00:00Z",
+    "filename": "dynagroup.md",
+    "link": "dynagroup",
+    "languaje": {
+      "code": "CodeIgnater",
+      "php": 5.6,
+      "javascript": "jQuery",
+      "css": "bootstrap",
+      "storage": "MySQL"
+    }
+  },
+  {
+    "name": "Bracketmedia.com",
+    "city": "C.A.B.A.",
+    "jobs": "Desarrollo Linux",
+    "type": "Tiempo Completo",
+    "icons": "developer_board",
+    "entry": "2008-03-01T09:00:00Z",
+    "actuality": false,
+    "egress": "2008-10-30T19:00:00Z",
+    "filename": "bracketmedia.md",
+    "link": "bracketmedia",
+    "languaje": {
+      "developer_board": "Debian 4",
+      "code": "Apache2",
+      "php": 5.6,
+      "storage": "MySQL"
+    }
   }
 ]
