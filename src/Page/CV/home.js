@@ -22,7 +22,7 @@ const FireNav = styled(List)({
 });
 
 export default function Home(props) {
-	const { lang, listEducation, listJobs, env } = props;
+	const { lang, listEducation, listJobs, listEduonline, env } = props;
 
 	return (
 		<Box sx={{ width: "100%" }}>
@@ -39,17 +39,24 @@ export default function Home(props) {
 
 			<FireNav component="nav" disablePadding>
 				<ListColapse
-					noClose={true}
+					close={true}
 					list={listJobs}
 					to="/cv/jobs/"
 					primary={lang.cv.Jobs}
 				/>
 				<Divider />
 				<ListColapse
-					noClose={true}
+					close={true}
 					list={listEducation}
 					to="/cv/education/"
 					primary={lang.cv.Education}
+				/>
+				<Divider />
+				<ListColapse
+					close={true}
+					list={listEduonline}
+					to="/cv/eduonline/"
+					primary={lang.cv.EducationOnline}
 				/>
 				<Divider />
 			</FireNav>

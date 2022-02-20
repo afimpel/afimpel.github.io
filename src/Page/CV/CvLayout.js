@@ -22,7 +22,7 @@ const FireNav = styled(List)({
 });
 
 export default function CvLayout(props) {
-	const { lang, listEducation, listJobs } = props;
+	const { lang, listEducation, listJobs, listEduonline } = props;
 	return (
 		<>
 			<LayoutBase>
@@ -48,6 +48,12 @@ export default function CvLayout(props) {
 						list={listEducation}
 						to="/cv/education/"
 						primary={lang.cv.Education}
+					/>
+					<Divider />
+					<ListColapse
+						list={listEduonline}
+						to="/cv/eduonline/"
+						primary={lang.cv.EducationOnline}
 					/>
 					<Divider />
 				</FireNav>

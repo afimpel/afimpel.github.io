@@ -4,6 +4,7 @@ import Home from "./home";
 import Jobs from "./Jobs";
 import SubJobs from "./SubJobs";
 import Education from "./Education";
+import Eduonline from "./Eduonline";
 import CvLayout from "./CvLayout";
 import axios from "axios";
 import appVersion from '../../version.json';
@@ -11,6 +12,7 @@ import appVersion from '../../version.json';
 export default function Index(props) {
 	const [listJobs, setListJobs] = useState([]);
 	const [listEducation, setListEducation] = useState([]);
+	const [listEduonline, setListEduonline] = useState([]);
 	const [errorlog, setErrorlog] = useState("");
 	const { env } = props;
 
@@ -47,6 +49,22 @@ export default function Index(props) {
 				console.error(error);
 				setListEducation([]);
 			});
+		axios
+			.get(
+				`https://raw.githubusercontent.com/afimpel/afimpel.github.io/cv/CurriculumVitae/Education/eduonline.json?v=${appVersion.version}`
+			)
+			.then(function (response) {
+				// handle success
+				let res = response.data;
+				setListEduonline(res);
+				setErrorlog();
+			})
+			.catch(function (error) {
+				// handle error
+				setErrorlog(JSON.stringify(error));
+				console.error(error);
+				setListEduonline([]);
+			});
 	}, []);
 
 	return (
@@ -59,6 +77,7 @@ export default function Index(props) {
 							{...props}
 							listJobs={listJobs}
 							listEducation={listEducation}
+							listEduonline={listEduonline}
 						/>
 					}
 				>
@@ -69,6 +88,7 @@ export default function Index(props) {
 								{...props}
 								listJobs={listJobs}
 								listEducation={listEducation}
+								listEduonline={listEduonline}
 							/>
 						}
 					/>
@@ -83,6 +103,10 @@ export default function Index(props) {
 					<Route
 						path="education/:edu"
 						element={<Education {...props} list={listEducation} />}
+					/>
+					<Route
+						path="eduonline/:edu"
+						element={<Eduonline {...props} list={listEduonline} />}
 					/>
 				</Route>
 			</Routes>

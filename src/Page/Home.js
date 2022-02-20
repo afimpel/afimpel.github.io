@@ -30,6 +30,8 @@ export default function Home(props) {
 	const { lang, env, click } = props;
 	const [listJobs, setListJobs] = useState([]);
 	const [listEducation, setListEducation] = useState([]);
+	const [listEduonline, setListEduonline] = useState([]);
+
 	if (click) click();
 	useEffect(() => {
 		axios
@@ -60,6 +62,20 @@ export default function Home(props) {
 				console.error(error);
 				setListEducation([]);
 			});
+			axios
+				.get(
+					`https://raw.githubusercontent.com/afimpel/afimpel.github.io/cv/CurriculumVitae/Education/eduonline.json?v=${appVersion.version}`
+				)
+				.then(function (response) {
+					// handle success
+					let res = response.data;
+					setListEduonline(res);
+				})
+				.catch(function (error) {
+					// handle error
+					console.error(error);
+					setListEduonline([]);
+				});
 	}, []);
 
 	return (
@@ -100,6 +116,13 @@ export default function Home(props) {
 				<ListColapse
 					list={listEducation}
 					primary={lang.cv.Education}
+					close={true}
+					disabled={true}
+				/>
+				<Divider />
+				<ListColapse
+					list={listEduonline}
+					primary={lang.cv.EducationOnline}
 					close={true}
 					disabled={true}
 				/>

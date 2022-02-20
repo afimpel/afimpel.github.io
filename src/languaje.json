@@ -7,6 +7,7 @@
         "cv": {
             "title": "Currículum vítae",
             "Education": "Educación",
+            "EducationOnline": "Educación en línea",
             "Jobs": "Trabajos",
             "Age": "Años",
             "Birthday": "Fecha de cumpleaños",
@@ -33,7 +34,8 @@
         "cv": {
             "title": "Curriculum vitae",
             "Education": "Education",
-            "Age": "Year old.",
+            "EducationOnline":"Online education",
+            "Age": "Year old",
             "Jobs": "Jobs",
             "Birthday": "Birthday date",
             "EducationActaulity": "Nowadays",

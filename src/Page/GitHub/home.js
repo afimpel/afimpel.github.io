@@ -45,7 +45,7 @@ export default function Home(props) {
 			});
 	}, [listRepo]);
 
-		return (
+	return (
 		<>
 			{roto ? (
 				<>
@@ -53,7 +53,7 @@ export default function Home(props) {
 					<Box sx={{ width: "100%" }}>
 						<FireNav component="nav" disablePadding>
 							<ListColapse
-								noClose={true}
+								close={true}
 								list={listRepo}
 								to="/github/repo/"
 								lengthText={" " + lang.git.Public}
