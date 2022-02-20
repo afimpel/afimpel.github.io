@@ -65,7 +65,7 @@ export default function GithubHeaderInner(props) {
 			</Grid>
 
 			<Grid container spacing={1} columns={16} color="text.secondary" sx={{ mb: 2 }}>
-				<Grid item xs sx={{ p: "auto" }}>
+				<Grid item xs={4} sx={{ p: "auto" }}>
 					<LinkButtonPublic
 						to={list.html_url}
 						type="chip"
@@ -97,7 +97,7 @@ export default function GithubHeaderInner(props) {
 					</LinkButtonPublic>
 				</Grid>
 				{list.homepage !== null && list.homepage !== "" ? (
-					<Grid item xs sx={{ p: "auto" }}>
+					<Grid item xs={4} sx={{ p: "auto" }}>
 						<LinkButtonPublic
 							to={list.homepage}
 							type="chip"
