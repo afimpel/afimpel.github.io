@@ -8,7 +8,7 @@ export function calculateAge(birthMonth, birthDay, birthYear) {
 	if (currentMonth < birthMonth - 1) {
 		calculatedAge--;
 	}
-	if (birthMonth - 1 == currentMonth && currentDay < birthDay) {
+	if (birthMonth - 1 === currentMonth && currentDay < birthDay) {
 		calculatedAge--;
 	}
 	return calculatedAge;
