@@ -1,3 +1,3 @@
-- Durante **changeMe años** he ido adquiriendo un nivel avanzado en **Linux y scripts ( Bash y python )** y capacitándome como un programador Sénior, con amplios conocimientos de **PHP, MySQL y PostgreSQL**.
-- Mi pasión por los nuevos lenguajes de programación y tecnologías y mis habilidades de adaptación a los cambios y aprendizaje rápido, me han impulsado a incursionar desde el 2017 en el mundo **JavaScript ( Node.js, MongoDB, React, AngularJS, entre otras )**
-- Además de realizar el ciclo de vida completo de un proyecto ( diseño, desarrollo, integración de software y renovación del mismo ), puedo encargarme del mantenimiento tanto del software como del hardware .
+- For **changeMe years** I have been acquiring an advanced level in **Linux and scripts ( Bash and python )** and training as a Senior programmer, with extensive knowledge of **PHP, SQLite, MySQL and PostgreSQL**.
+- My passion for new programming languages and technologies and my ability to adapt to changes and learn quickly have prompted me to venture into the world of **JavaScript (Node.js, deno.js, MongoDB, React, AngularJS, among others)** since 2017.
+- In addition to carrying out the *complete life cycle of a project* (design, development, software integration and renovation), I can take care of both software and hardware maintenance.

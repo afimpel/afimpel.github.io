@@ -1,3 +1,3 @@
-- Durante **changeMe años** he ido adquiriendo un nivel avanzado en **Linux y scripts ( Bash y python )** y capacitándome como un programador Sénior, con amplios conocimientos de **PHP, MySQL y PostgreSQL**.
-- Mi pasión por los nuevos lenguajes de programación y tecnologías y mis habilidades de adaptación a los cambios y aprendizaje rápido, me han impulsado a incursionar desde el 2017 en el mundo **JavaScript ( Node.js, MongoDB, React, AngularJS, entre otras )**
-- Además de realizar el ciclo de vida completo de un proyecto ( diseño, desarrollo, integración de software y renovación del mismo ), puedo encargarme del mantenimiento tanto del software como del hardware .
+- Durante **changeMe años** he ido adquiriendo un nivel avanzado en **Linux y scripts ( Bash y python )** y capacitándome como un programador Sénior, con amplios conocimientos de **PHP, SQLite, MySQL y PostgreSQL**.
+- Mi pasión por los nuevos lenguajes de programación y tecnologías y mis habilidades de adaptación a los cambios y aprendizaje rápido, me han impulsado a incursionar desde el 2017 en el mundo **JavaScript ( Node.js, deno.js, MongoDB, React, AngularJS, entre otras )**
+- Además de realizar el *ciclo de vida completo de un proyecto* ( diseño, desarrollo, integración de software y renovación del mismo ), puedo encargarme del mantenimiento tanto del software como del hardware.
