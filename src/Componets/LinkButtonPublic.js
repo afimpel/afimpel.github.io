@@ -24,7 +24,9 @@ export default function LinkButtonPublic(props) {
 	const ln = (to) => {
 		//alert(to);
 		//let url = `https:${to}`.split(":");
-		window.open(to, "_blank");
+		if (to !== "") {
+			window.open(to, "_blank");
+		}
 	};
 
 	switch (props.type) {
