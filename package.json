@@ -1,0 +1,57 @@
+{
+	"name": "afimpel.github.io",
+	"version": "0.1.1",
+	"homepage": "https://afimpel.github.io",
+	"dependencies": {
+		"@emotion/react": "latest",
+		"@emotion/styled": "latest",
+		"@mui/icons-material": "latest",
+		"@mui/lab": "latest",
+		"@mui/material": "latest",
+		"axios": "latest",
+		"axios-cache-adapter": "latest",
+		"clsx": "latest",
+		"notistack": "latest",
+		"polished": "latest",
+		"prop-types": "latest",
+		"react": "latest",
+		"react-clock": "latest",
+		"react-dom": "latest",
+		"react-external-link": "lastest",
+		"react-geolocated": "latest",
+		"react-helmet": "latest",
+		"react-highlight.js": "latest",
+		"react-markdown": "latest",
+		"react-router-dom": "latest"
+	},
+	"devDependencies": {
+		"gh-pages": "latest",
+		"react-scripts": "latest"
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject",
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d build"
+	},
+	"eslintConfig": {
+		"extends": [
+			"react-app",
+			"react-app/jest"
+		]
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	}
+}

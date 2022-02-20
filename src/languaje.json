@@ -1,0 +1,52 @@
+{
+    "es": {
+        "type": "es",
+        "fullname": "Alvaro Fimpel",
+        "search": "buscar ...",
+        "home": "Pagina Principal",
+        "cv": {
+            "title": "Currículum vítae",
+            "Education": "Educación",
+            "Jobs": "Trabajos",
+            "Age": "Años",
+            "Birthday": "Fecha de cumpleaños",
+            "EducationActaulity": "Actualmente"
+        },
+        "git": {
+            "title": "Repositorios GitHub",
+            "Public": "Público",
+            "Repo": "Repositorios",
+            "Files": "Archivos",
+            "Followers": "Seguidores",
+            "Following": "Siguiendo",
+            "Created": "Creada",
+            "Updated": "Actualizada",
+            "Branch": "Rama"
+        }
+    },
+    "en": {
+        "type": "en",
+        "fullname": "Fimpel, Alvaro",
+        "search": "search ...",
+        "home": "Homepage",
+        "cv": {
+            "title": "Curriculum vitae",
+            "Education": "Education",
+            "Age": "Year old.",
+            "Jobs": "Jobs",
+            "Birthday": "Birthday date",
+            "EducationActaulity": "Nowadays"
+        },
+        "git": {
+            "title": "GitHub Repositories",
+            "Public": "Public",
+            "Repo": "Repositories",
+            "Files": "Files",
+            "Followers": "Followers",
+            "Following": "Following",
+            "Created": "Created",
+            "Updated": "Updated",
+            "Branch": "Branch"
+        }
+    }
+}
