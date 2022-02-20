@@ -3,7 +3,7 @@ import Typography from "@mui/material/Typography";
 import ReactMarkdown from "react-markdown";
 import str_replace from "../Function/str_replace";
 import "./md.css";
-import packageJson from "../../package.json";
+import appVersion from '../version.json';
 const axios = require("axios");
 
 export default function ReadMD(props) {
@@ -28,7 +28,7 @@ export default function ReadMD(props) {
 			.get(
 				file +
 					"?v=" +
-					packageJson.version.replace(".", "").replace(".", "").replace(".", "")
+					appVersion.version
 			)
 			.then(function (response) {
 				// handle success

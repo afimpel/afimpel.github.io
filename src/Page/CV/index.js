@@ -6,6 +6,7 @@ import SubJobs from "./SubJobs";
 import Education from "./Education";
 import CvLayout from "./CvLayout";
 import axios from "axios";
+import appVersion from '../../version.json';
 
 export default function Index(props) {
 	const [listJobs, setListJobs] = useState([]);
@@ -16,7 +17,7 @@ export default function Index(props) {
 	useEffect(() => {
 		axios
 			.get(
-				`https://raw.githubusercontent.com/afimpel/afimpel.github.io/cv/CurriculumVitae/Jobs/lists.json`
+				`https://raw.githubusercontent.com/afimpel/afimpel.github.io/cv/CurriculumVitae/Jobs/lists.json?v=${appVersion.version}`
 			)
 			.then(function (response) {
 				// handle success
@@ -32,7 +33,7 @@ export default function Index(props) {
 			});
 		axios
 			.get(
-				`https://raw.githubusercontent.com/afimpel/afimpel.github.io/cv/CurriculumVitae/Education/lists.json`
+				`https://raw.githubusercontent.com/afimpel/afimpel.github.io/cv/CurriculumVitae/Education/lists.json?v=${appVersion.version}`
 			)
 			.then(function (response) {
 				// handle success

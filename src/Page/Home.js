@@ -9,6 +9,8 @@ import LinkButton from "../Componets/LinkButton";
 import ListColapse from "../Componets/ListColapse";
 import ReadMD from "../Componets/ReadMD";
 import HeaderCV from "./CV/HeaderCV";
+import appVersion from '../version.json';
+
 
 const FireNav = styled(List)({
 	"& .MuiListItemButton-root": {
@@ -32,7 +34,7 @@ export default function Home(props) {
 	useEffect(() => {
 		axios
 			.get(
-				`https://raw.githubusercontent.com/afimpel/afimpel.github.io/cv/CurriculumVitae/Jobs/lists.json`
+				`https://raw.githubusercontent.com/afimpel/afimpel.github.io/cv/CurriculumVitae/Jobs/lists.json?v=${appVersion.version}`
 			)
 			.then(function (response) {
 				// handle success
@@ -46,7 +48,7 @@ export default function Home(props) {
 			});
 		axios
 			.get(
-				`https://raw.githubusercontent.com/afimpel/afimpel.github.io/cv/CurriculumVitae/Education/lists.json`
+				`https://raw.githubusercontent.com/afimpel/afimpel.github.io/cv/CurriculumVitae/Education/lists.json?v=${appVersion.version}`
 			)
 			.then(function (response) {
 				// handle success
