@@ -6,8 +6,9 @@ import HeaderCV from "./HeaderCV";
 import { Grid, Icon, Chip, Paper, Divider } from "@mui/material";
 import MeetingRoomIcon from "@mui/icons-material/MeetingRoom";
 import DoorBackIcon from "@mui/icons-material/DoorBack";
-import { LocationOn, Work,LockClock } from "@mui/icons-material";
+import { LocationOn, Work, LockClock } from "@mui/icons-material";
 import ListColapse from "../../Componets/ListColapse";
+import CodeUses from "./CodeUses";
 
 export default function Jobs(props) {
 	const { lang, env, list } = props;
@@ -123,6 +124,7 @@ export default function Jobs(props) {
 				) : (
 					""
 				)}
+				<CodeUses listCode={listjobsOBJ.languaje} {...props}  />
 			</Paper>
 			{env ? (<>
 				<Typography variant="code" gutterBottom component="pre" wrap="nowrap">

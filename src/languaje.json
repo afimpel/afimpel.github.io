@@ -10,7 +10,8 @@
             "Jobs": "Trabajos",
             "Age": "Años",
             "Birthday": "Fecha de cumpleaños",
-            "EducationActaulity": "Actualmente"
+            "EducationActaulity": "Actualmente",
+            "codeUses":"Lenguaje usados"
         },
         "git": {
             "title": "Repositorios GitHub",
@@ -35,7 +36,8 @@
             "Age": "Year old.",
             "Jobs": "Jobs",
             "Birthday": "Birthday date",
-            "EducationActaulity": "Nowadays"
+            "EducationActaulity": "Nowadays",
+            "codeUses":"Language used"
         },
         "git": {
             "title": "GitHub Repositories",

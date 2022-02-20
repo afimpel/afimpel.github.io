@@ -8,6 +8,7 @@ import MeetingRoomIcon from "@mui/icons-material/MeetingRoom";
 import DoorBackIcon from "@mui/icons-material/DoorBack";
 import { LocationOn, Web, Work, LockClock } from "@mui/icons-material";
 import LinkButtonPublic from "../../Componets/LinkButtonPublic";
+import CodeUses from "./CodeUses";
 
 export default function SubJobs(props) {
 	const { lang, env, list } = props;
@@ -142,6 +143,7 @@ export default function SubJobs(props) {
 					env={env}
 					file={`https://raw.githubusercontent.com/afimpel/afimpel.github.io/cv/CurriculumVitae/Jobs/${listsubjobsOBJ.filename}`}
 				/>
+				<CodeUses listCode={listsubjobsOBJ.languaje} {...props} />
 			</Paper>
 			{env ? (<>
 				<Typography variant="code" gutterBottom component="pre" wrap="nowrap">
