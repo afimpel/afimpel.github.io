@@ -113,5 +113,10 @@
     "title": "Bootstrap 5",
     "name": "bootstrap.svg",
     "size": 1
+  },
+  {
+    "title": "Asterisk",
+    "name": "Asterisk.svg",
+    "size": 2
   }
 ]
