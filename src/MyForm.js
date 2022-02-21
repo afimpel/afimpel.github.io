@@ -31,7 +31,6 @@ export default function MyForm() {
 
 	React.useEffect(() => {
 		if (!home) {
-			console.log('window.location', window.location)
 			if (window.location.hash !== "") {
 				window.location.href = "/";
 			}
@@ -101,24 +100,24 @@ export default function MyForm() {
 						/>
 						{home
 							? Page(lang).map((obj) => {
-									const OtherComponent = React.lazy(() =>
-										import("./Page/" + obj.pages)
-									);
+								const OtherComponent = React.lazy(() =>
+									import("./Page/" + obj.pages)
+								);
 
-									return (
-										<Route
-											key={obj.key}
-											path={obj.path}
-											exact
-											element={
-												<OtherComponent
-													lang={lang}
-													env={GlobalData.developer}
-												/>
-											}
-										/>
-									);
-							  })
+								return (
+									<Route
+										key={obj.key}
+										path={obj.path}
+										exact
+										element={
+											<OtherComponent
+												lang={lang}
+												env={GlobalData.developer}
+											/>
+										}
+									/>
+								);
+							})
 							: ""}
 						<Route component={<Error />} />
 					</Routes>

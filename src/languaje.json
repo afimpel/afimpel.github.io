@@ -1,6 +1,7 @@
 {
     "es": {
         "type": "es",
+        "technologie":"Algunas de las Tecnologías",
         "fullname": "Alvaro Fimpel",
         "search": "buscar ...",
         "home": "Pagina Principal",
@@ -28,6 +29,7 @@
     },
     "en": {
         "type": "en",
+        "technologie":"Some of the Technologies",
         "fullname": "Fimpel, Alvaro",
         "search": "search ...",
         "home": "Homepage",

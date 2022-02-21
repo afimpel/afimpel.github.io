@@ -15,7 +15,7 @@ export default function Education(props) {
 	return (
 		/*		<ReadMD
 		env={env}
-		file={`https://raw.githubusercontent.com/afimpel/afimpel.github.io/cv/CurriculumVitae/Education/${edu}`}
+		file={`afimpel/afimpel.github.io/cv/CurriculumVitae/Education/${edu}`}
 	/>*/
 		<>
 			<HeaderCV {...props} min={true} />

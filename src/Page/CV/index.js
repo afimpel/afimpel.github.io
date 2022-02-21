@@ -6,8 +6,7 @@ import SubJobs from "./SubJobs";
 import Education from "./Education";
 import Eduonline from "./Eduonline";
 import CvLayout from "./CvLayout";
-import axios from "axios";
-import appVersion from '../../version.json';
+import githubContent from "../../Function/githubContent";
 
 export default function Index(props) {
 	const [listJobs, setListJobs] = useState([]);
@@ -17,10 +16,9 @@ export default function Index(props) {
 	const { env } = props;
 
 	useEffect(() => {
-		axios
-			.get(
-				`https://raw.githubusercontent.com/afimpel/afimpel.github.io/cv/CurriculumVitae/Jobs/lists.json?v=${appVersion.version}`
-			)
+		githubContent(
+			`afimpel/afimpel.github.io/cv/CurriculumVitae/Jobs/lists.json`
+		)
 			.then(function (response) {
 				// handle success
 				let res = response.data;
@@ -33,10 +31,9 @@ export default function Index(props) {
 				console.error(error);
 				setListJobs([]);
 			});
-		axios
-			.get(
-				`https://raw.githubusercontent.com/afimpel/afimpel.github.io/cv/CurriculumVitae/Education/lists.json?v=${appVersion.version}`
-			)
+		githubContent(
+			`afimpel/afimpel.github.io/cv/CurriculumVitae/Education/lists.json`
+		)
 			.then(function (response) {
 				// handle success
 				let res = response.data;
@@ -49,10 +46,9 @@ export default function Index(props) {
 				console.error(error);
 				setListEducation([]);
 			});
-		axios
-			.get(
-				`https://raw.githubusercontent.com/afimpel/afimpel.github.io/cv/CurriculumVitae/Education/eduonline.json?v=${appVersion.version}`
-			)
+		githubContent(
+			`afimpel/afimpel.github.io/cv/CurriculumVitae/Education/eduonline.json`
+		)
 			.then(function (response) {
 				// handle success
 				let res = response.data;

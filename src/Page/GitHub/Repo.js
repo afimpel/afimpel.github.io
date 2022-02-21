@@ -57,7 +57,7 @@ export default function Repo(props) {
 			<Box sx={{ width: "98%", m: 2, p: 0 }}>
 				<ReadMD
 					env={env}
-					file={`https://raw.githubusercontent.com/${user}/${repo}/${branch}/README.md`}
+					file={`${user}/${repo}/${branch}/README.md`}
 				/>
 			</Box>
 			{env ? (<>

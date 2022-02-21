@@ -33,7 +33,7 @@ export default function Home(props) {
 						{ origen: "changeMe", replace: new Date().getFullYear() - 2004 },
 					]}
 					env={env}
-					file={`https://raw.githubusercontent.com/afimpel/afimpel.github.io/cv/CurriculumVitae/resume_${lang.type}.md`}
+					file={`afimpel/afimpel.github.io/cv/CurriculumVitae/resume_${lang.type}.md`}
 				/>
 			</HeaderCV>
 

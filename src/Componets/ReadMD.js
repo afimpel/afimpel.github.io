@@ -3,9 +3,7 @@ import Typography from "@mui/material/Typography";
 import ReactMarkdown from "react-markdown";
 import str_replace from "../Function/str_replace";
 import "./md.css";
-import appVersion from '../version.json';
-const axios = require("axios");
-
+import githubContent from "../Function/githubContent";
 export default function ReadMD(props) {
 	const { file, env, replaceList } = props;
 	const [markdown, setMarkdown] = useState();
@@ -24,12 +22,7 @@ export default function ReadMD(props) {
 	useEffect(() => {
 		let m2 = fileNameFromUrl(file);
 
-		axios
-			.get(
-				file +
-					"?v=" +
-					appVersion.version
-			)
+		githubContent(file)
 			.then(function (response) {
 				// handle success
 				let res = "";

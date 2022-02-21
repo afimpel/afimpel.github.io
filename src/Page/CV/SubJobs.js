@@ -141,7 +141,7 @@ export default function SubJobs(props) {
 						{ origen: "changeMe", replace: new Date().getFullYear() - 2004 },
 					]}
 					env={env}
-					file={`https://raw.githubusercontent.com/afimpel/afimpel.github.io/cv/CurriculumVitae/Jobs/${listsubjobsOBJ.filename}`}
+					file={`afimpel/afimpel.github.io/cv/CurriculumVitae/Jobs/${listsubjobsOBJ.filename}`}
 				/>
 				<CodeUses listCode={listsubjobsOBJ.languaje} {...props} />
 			</Paper>

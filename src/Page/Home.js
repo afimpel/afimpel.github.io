@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import axios from "axios";
 import { styled } from "@mui/material/styles";
 import Divider from "@mui/material/Divider";
 import List from "@mui/material/List";
@@ -9,8 +8,8 @@ import LinkButton from "../Componets/LinkButton";
 import ListColapse from "../Componets/ListColapse";
 import ReadMD from "../Componets/ReadMD";
 import HeaderCV from "./CV/HeaderCV";
-import appVersion from '../version.json';
-
+import githubContent from "../Function/githubContent";
+import { Paper, Grid, Typography } from "@mui/material";
 
 const FireNav = styled(List)({
 	"& .MuiListItemButton-root": {
@@ -30,14 +29,14 @@ export default function Home(props) {
 	const { lang, env, click } = props;
 	const [listJobs, setListJobs] = useState([]);
 	const [listEducation, setListEducation] = useState([]);
+	const [listLogos, setListLogos] = useState([]);
 	const [listEduonline, setListEduonline] = useState([]);
 
 	if (click) click();
 	useEffect(() => {
-		axios
-			.get(
-				`https://raw.githubusercontent.com/afimpel/afimpel.github.io/cv/CurriculumVitae/Jobs/lists.json?v=${appVersion.version}`
-			)
+		githubContent(
+			`afimpel/afimpel.github.io/cv/CurriculumVitae/Jobs/lists.json`
+		)
 			.then(function (response) {
 				// handle success
 				let res = response.data;
@@ -48,10 +47,9 @@ export default function Home(props) {
 				console.error(error);
 				setListJobs([]);
 			});
-		axios
-			.get(
-				`https://raw.githubusercontent.com/afimpel/afimpel.github.io/cv/CurriculumVitae/Education/lists.json?v=${appVersion.version}`
-			)
+		githubContent(
+			`afimpel/afimpel.github.io/cv/CurriculumVitae/Jobs/lists.json`
+		)
 			.then(function (response) {
 				// handle success
 				let res = response.data;
@@ -62,20 +60,30 @@ export default function Home(props) {
 				console.error(error);
 				setListEducation([]);
 			});
-			axios
-				.get(
-					`https://raw.githubusercontent.com/afimpel/afimpel.github.io/cv/CurriculumVitae/Education/eduonline.json?v=${appVersion.version}`
-				)
-				.then(function (response) {
-					// handle success
-					let res = response.data;
-					setListEduonline(res);
-				})
-				.catch(function (error) {
-					// handle error
-					console.error(error);
-					setListEduonline([]);
-				});
+		githubContent(
+			`afimpel/afimpel.github.io/cv/CurriculumVitae/Education/eduonline.json`
+		)
+			.then(function (response) {
+				// handle success
+				let res = response.data;
+				setListEduonline(res);
+			})
+			.catch(function (error) {
+				// handle error
+				console.error(error);
+				setListEduonline([]);
+			});
+		githubContent(`afimpel/afimpel.github.io/logos/icons.json`)
+			.then(function (response) {
+				// handle success
+				let res = response.data;
+				setListLogos(res);
+			})
+			.catch(function (error) {
+				// handle error
+				console.error(error);
+				setListLogos([]);
+			});
 	}, []);
 
 	return (
@@ -87,7 +95,7 @@ export default function Home(props) {
 						{ origen: "changeMe", replace: new Date().getFullYear() - 2004 },
 					]}
 					env={env}
-					file={`https://raw.githubusercontent.com/afimpel/afimpel.github.io/cv/CurriculumVitae/resume_${lang.type}.md`}
+					file={`afimpel/afimpel.github.io/cv/CurriculumVitae/resume_${lang.type}.md`}
 				/>
 			</HeaderCV>
 			<FireNav component="nav" disablePadding>
@@ -142,6 +150,36 @@ export default function Home(props) {
 					}}
 				/>
 			</FireNav>
+			<Paper
+				sx={{
+					p: 1,
+					mx: 1,
+					mt: 1,
+					mb: 2,
+					flexGrow: 1,
+					borderRadius: 3,
+					boxShadow: 5,
+					textAlign: "center",
+				}}
+			>
+				<Typography
+					gutterBottom
+					variant="h4"
+					fontWeight={700}
+					component="h3"
+					sx={{ my: 0 }}
+				>
+					{lang.technologie}
+				</Typography>
+				<Divider sx={{ my: 2 }} />
+				<Grid container spacing={2}>
+					{listLogos.map((item, ind) => (
+						<Grid item xs={item.size} sx={{ textAlign: "center" }}>
+							<img height="64" alt={item.title} title={item.title} key={ind} src={`https://raw.githubusercontent.com/afimpel/afimpel.github.io/logos/${item.name}`} />
+						</Grid>
+					))}
+				</Grid>
+			</Paper>
 		</>
 	);
 }
