@@ -1,0 +1,82 @@
+[
+  {
+    "title": "Docker",
+    "name": "docker.png"
+  },
+  {
+    "title": "Alpine Linux",
+    "name": "AlpineLinux.svg"
+  },
+  {
+    "title": "Debian Linux",
+    "name": "debian.svg"
+  },
+  {
+    "title": "Apache2 Server",
+    "name": "apache2.svg"
+  },
+  {
+    "title": "NGINX Server",
+    "name": "Nginx.svg"
+  },
+  {
+    "title": "lighttpd Server",
+    "name": "Lighttpd.png"
+  },
+  {
+    "title": "php 7",
+    "name": "php.svg"
+  },
+  {
+    "title": "Maria DB Server",
+    "name": "mariaDB_black.svg"
+  },
+  {
+    "title": "PostgreSQL Server",
+    "name": "Postgresql.svg"
+  },
+  {
+    "title": "SQLite",
+    "name": "sqlite.svg"
+  },
+  {
+    "title": "Deno JS",
+    "name": "deno.svg"
+  },
+  {
+    "title": "Node JS",
+    "name": "nodejs.svg"
+  },
+  {
+    "title": "JSON File",
+    "name": "json.svg"
+  },
+  {
+    "title": "React JS",
+    "name": "React.svg"
+  },
+  {
+    "title": "Material UI React",
+    "name": "mui.png"
+  },
+  {
+    "title": "MongoDB Server",
+    "name": "MongoDB.svg"
+  },
+  {
+    "title": "CSS 3",
+    "name": "CSS3.svg"
+  },
+  {
+    "title": "HTML 5",
+    "name": "HTML5.svg"
+  },
+  {
+    "title": "JavaScript",
+    "name": "javascript.svg"
+  },
+  {
+    "title": "Bootstrap 5",
+    "name": "bootstrap.svg"
+  }
+]
