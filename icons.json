@@ -1,82 +1,102 @@
 [
   {
     "title": "Docker",
-    "name": "docker.png"
+    "name": "docker.png",
+    "size": 1
   },
   {
     "title": "Alpine Linux",
-    "name": "AlpineLinux.svg"
+    "name": "AlpineLinux.svg",
+    "size": 2
   },
   {
     "title": "Debian Linux",
-    "name": "debian.svg"
+    "name": "debian.svg",
+    "size": 1
   },
   {
     "title": "Apache2 Server",
-    "name": "apache2.svg"
+    "name": "apache2.svg",
+    "size": 2
   },
   {
     "title": "NGINX Server",
-    "name": "Nginx.svg"
+    "name": "Nginx.svg",
+    "size": 2
   },
   {
     "title": "lighttpd Server",
-    "name": "lighttpd.png"
+    "name": "lighttpd.png",
+    "size": 1
   },
   {
     "title": "php 7",
-    "name": "php.svg"
+    "name": "php.svg",
+    "size": 1
   },
   {
     "title": "Maria DB Server",
-    "name": "mariaDB_black.svg"
+    "name": "mariaDB_black.svg",
+    "size": 1
   },
   {
     "title": "PostgreSQL Server",
-    "name": "Postgresql.svg"
+    "name": "Postgresql.svg",
+    "size": 1
   },
   {
     "title": "SQLite",
-    "name": "sqlite.svg"
+    "name": "sqlite.svg",
+    "size": 1
   },
   {
     "title": "Deno JS",
-    "name": "deno.svg"
+    "name": "deno.svg",
+    "size": 1
   },
   {
     "title": "Node JS",
-    "name": "nodejs.svg"
+    "name": "nodejs.svg",
+    "size": 1
   },
   {
     "title": "JSON File",
-    "name": "json.svg"
+    "name": "json.svg",
+    "size": 1
   },
   {
     "title": "React JS",
-    "name": "React.svg"
+    "name": "React.svg",
+    "size": 1
   },
   {
     "title": "Material UI React",
-    "name": "mui.png"
+    "name": "mui.png",
+    "size": 1
   },
   {
     "title": "MongoDB Server",
-    "name": "MongoDB.svg"
+    "name": "MongoDB.svg",
+    "size": 2
   },
   {
     "title": "CSS 3",
-    "name": "CSS3.svg"
+    "name": "CSS3.svg",
+    "size": 1
   },
   {
     "title": "HTML 5",
-    "name": "HTML5.svg"
+    "name": "HTML5.svg",
+    "size": 1
   },
   {
     "title": "JavaScript",
-    "name": "javascript.svg"
+    "name": "javascript.svg",
+    "size": 1
   },
   {
     "title": "Bootstrap 5",
-    "name": "bootstrap.svg"
+    "name": "bootstrap.svg",
+    "size": 1
   }
 ]
