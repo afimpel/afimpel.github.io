@@ -5,6 +5,21 @@
     "size": 1
   },
   {
+    "title": "QEMU KVM",
+    "name": "qemu.svg",
+    "size": 1
+  },
+  {
+    "title": "VirtualBox",
+    "name": "Virtualbox.png",
+    "size": 1
+  },
+  {
+    "title": "VMware",
+    "name": "vmware.svg",
+    "size": 1
+  },
+  {
     "title": "Alpine Linux",
     "name": "AlpineLinux.svg",
     "size": 2
