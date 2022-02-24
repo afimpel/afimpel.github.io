@@ -118,5 +118,10 @@
     "title": "Asterisk",
     "name": "Asterisk.svg",
     "size": 2
+  },
+  {
+    "title": "Raspberry PI",
+    "name": "rpi.png",
+    "size": 2
   }
 ]
