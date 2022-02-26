@@ -5,6 +5,7 @@ import List from "@mui/material/List";
 import ListColapse from "../../Componets/ListColapse";
 import api from "../../Function/githubApi";
 import GithubHeaderHome from "./GithubHeaderHome";
+import ReadMD from "../../Componets/ReadMD";
 
 const FireNav = styled(List)({
 	"& .MuiListItemButton-root": {
@@ -21,7 +22,7 @@ const FireNav = styled(List)({
 });
 
 export default function Home(props) {
-	const { lang, listRepo } = props;
+	const { lang, listRepo, env } = props;
 	const [owner, setOwner] = useState({});
 	const [roto, setRoto] = useState(true);
 	const [errorlog, setErrorlog] = useState("");
@@ -51,6 +52,10 @@ export default function Home(props) {
 				<>
 					<GithubHeaderHome {...props} owner={owner} />
 					<Box sx={{ width: "100%" }}>
+						<ReadMD
+							env={env}
+							file={`afimpel/afimpel/master/README_${lang.type}.md`}
+						/>
 						<FireNav component="nav" disablePadding>
 							<ListColapse
 								close={true}
@@ -61,6 +66,7 @@ export default function Home(props) {
 								iconDefault="code"
 							/>
 						</FireNav>
+
 					</Box>
 				</>
 			) : (
