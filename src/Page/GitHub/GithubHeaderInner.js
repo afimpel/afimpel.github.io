@@ -9,7 +9,7 @@ import Header from "../Header"
 export default function GithubHeaderInner(props) {
 	const { lang, list } = props;
 	const created_event = new Date(list.created_at);
-	const updated_event = new Date(list.updated_at);
+	const pushed_event = new Date(list.pushed_at);
 	const options = {
 		weekday: "short",
 		year: "numeric",
@@ -17,7 +17,7 @@ export default function GithubHeaderInner(props) {
 		day: "numeric",
 	};
 	let createdDate = created_event.toLocaleDateString(lang.type, options);
-	let updatedDate = updated_event.toLocaleDateString(lang.type, options);
+	let pushedDate = pushed_event.toLocaleDateString(lang.type, options);
 
 	return list.owner ? (
 		<Header {...props}>
@@ -56,7 +56,7 @@ export default function GithubHeaderInner(props) {
 						{lang.git.Created}: <b>{createdDate}</b>
 					</Grid>
 					<Grid item xs sx={{ p: "auto", textAlign: "center" }}>
-						{lang.git.Updated}: <b>{updatedDate}</b>
+						{lang.git.Pushed}: <b>{pushedDate}</b>
 					</Grid>
 					<Grid item xs sx={{ p: "auto", textAlign: "center" }}>
 						{lang.git.Branch}: <b>{list.default_branch}</b>

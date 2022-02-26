@@ -33,7 +33,7 @@ export default function ReadMD(props) {
 
 					res = response.data.replace(
 						m,
-						str_replace(m2, "/" + m.split("/")[1], file)
+						str_replace(m2, "/" + m.split("/")[1], response.config.url)
 					);
 				} catch (error) {
 					res = response.data;

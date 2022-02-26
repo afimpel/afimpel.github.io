@@ -6,12 +6,12 @@ import Header from "../Header";
 
 export default function HeaderCV(props) {
 	const { lang, min, children } = props;
-	const updated_event = new Date("9/4/1984");
+	const birth_event = new Date("9/4/1984");
 	const options = {
 		month: "long",
 		day: "numeric",
 	};
-	let updatedDate = updated_event.toLocaleDateString(lang.type, options);
+	let BirthDate = birth_event.toLocaleDateString(lang.type, options);
 
 	return (
 		<Header {...props}>
@@ -47,7 +47,7 @@ export default function HeaderCV(props) {
 					<b>{calculateAge(9, 4, 1984)}</b> {lang.cv.Age}
 				</Grid>
 				<Grid item xs={6} sx={{ m: 0 }}>
-					{lang.cv.Birthday}: <b>{updatedDate}</b>
+					{lang.cv.Birthday}: <b>{BirthDate}</b>
 				</Grid>
 			</Grid>
 			{children ? (

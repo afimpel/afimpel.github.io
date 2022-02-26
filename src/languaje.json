@@ -1,7 +1,7 @@
 {
     "es": {
         "type": "es",
-        "technologie":"Algunas de las Tecnologías",
+        "technologie": "Algunas de las Tecnologías",
         "fullname": "Alvaro Fimpel",
         "search": "buscar ...",
         "home": "Pagina Principal",
@@ -13,7 +13,7 @@
             "Age": "Años",
             "Birthday": "Fecha de cumpleaños",
             "EducationActaulity": "Actualmente",
-            "codeUses":"Lenguaje usados"
+            "codeUses": "Lenguaje usados"
         },
         "git": {
             "title": "Repositorios GitHub",
@@ -23,25 +23,26 @@
             "Followers": "Seguidores",
             "Following": "Siguiendo",
             "Created": "Creada",
+            "Pushed": "Subido",
             "Updated": "Actualizada",
             "Branch": "Rama"
         }
     },
     "en": {
         "type": "en",
-        "technologie":"Some of the Technologies",
+        "technologie": "Some of the Technologies",
         "fullname": "Fimpel, Alvaro",
         "search": "search ...",
         "home": "Homepage",
         "cv": {
             "title": "Curriculum vitae",
             "Education": "Education",
-            "EducationOnline":"Online education",
+            "EducationOnline": "Online education",
             "Age": "Year old",
             "Jobs": "Jobs",
             "Birthday": "Birthday date",
             "EducationActaulity": "Nowadays",
-            "codeUses":"Language used"
+            "codeUses": "Language used"
         },
         "git": {
             "title": "GitHub Repositories",
@@ -51,6 +52,7 @@
             "Followers": "Followers",
             "Following": "Following",
             "Created": "Created",
+            "Pushed": "Pushed",
             "Updated": "Updated",
             "Branch": "Branch"
         }
