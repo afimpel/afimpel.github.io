@@ -48,7 +48,7 @@ export default function Home(props) {
 				setListJobs([]);
 			});
 		githubContent(
-			`afimpel/afimpel.github.io/cv/CurriculumVitae/Jobs/lists.json`
+			`afimpel/afimpel.github.io/cv/CurriculumVitae/Education/lists.json`
 		)
 			.then(function (response) {
 				// handle success
