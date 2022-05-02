@@ -1,24 +1,5 @@
 [
   {
-    "name": "Grupo Via Bariloche SA.",
-    "city": "Pablo Nogués, Buenos Aires",
-    "jobs": "Software Engineer",
-    "type": "Tiempo Completo",
-    "icons": "php",
-    "entry": "2021-11-01T09:00:00Z",
-    "actuality": true,
-    "egress": "0000-00-00T00:00:00Z",
-    "filename": "viabariloche.md",
-    "link": "viabariloche",
-    "languaje": {
-      "code": "CodeIgnater",
-      "php": 7,
-      "javascript": "jQuery",
-      "css": "bootstrap",
-      "storage": "MsSQL"
-    }
-  },
-  {
     "name": "Afimpel.com",
     "city": "C.A.B.A.",
     "jobs": "Desarrollo Linux & Web",
@@ -64,6 +45,25 @@
         "languaje": {}
       }
     ]
+  },
+  {
+    "name": "Grupo Via Bariloche SA.",
+    "city": "Pablo Nogués, Buenos Aires",
+    "jobs": "Software Engineer",
+    "type": "Tiempo Completo",
+    "icons": "php",
+    "entry": "2021-11-01T09:00:00Z",
+    "actuality": false,
+    "egress": "2022-04-30T19:00:00Z",
+    "filename": "viabariloche.md",
+    "link": "viabariloche",
+    "languaje": {
+      "code": "CodeIgnater 3",
+      "php": 7,
+      "javascript": "jQuery 1.7",
+      "css": "bootstrap 3",
+      "storage": "MsSQL"
+    }
   },
   {
     "name": "INGENIA CA",
