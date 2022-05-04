@@ -6,6 +6,38 @@
     "link": "udemy",
     "courses": [
         {
+          "name": "Kubernetes, de principiante a experto",
+          "icons": "javascript",
+          "entry": "2022-04-01T19:00:00Z",
+          "actuality": true,
+          "egress": "2022-04-30T19:00:00Z",
+          "url": "//www.udemy.com/course/kubernetes-de-principiante-a-experto"
+        },
+        {
+          "name": "Docker, de principiante a experto",
+          "icons": "javascript",
+          "entry": "2022-04-01T19:00:00Z",
+          "actuality": true,
+          "egress": "2022-04-30T19:00:00Z",
+          "url": "//www.udemy.com/course/docker-de-principiante-a-experto"
+        },
+        {
+          "name": "DevOps Crash Course: Learn Jenkins Docker Kubernetes GIT",
+          "icons": "javascript",
+          "entry": "2022-03-01T19:00:00Z",
+          "actuality": false,
+          "egress": "2022-03-30T19:00:00Z",
+          "url": "//www.udemy.com/course/devops-crash-course-learn-jenkins-docker-kubernetes-git"
+        },
+        {
+          "name": "Install NGINX, PHP, MySQL, SSL & WordPress on Ubuntu",
+          "icons": "javascript",
+          "entry": "2022-01-01T19:00:00Z",
+          "actuality": false,
+          "egress": "2022-02-30T19:00:00Z",
+          "url": "//www.udemy.com/course/install-nginx-php-mysql-ssl-wordpress-on-ubuntu"
+        },
+        {
           "name": "Deno Js - Beginner Guide",
           "icons": "javascript",
           "entry": "2021-06-01T19:00:00Z",
