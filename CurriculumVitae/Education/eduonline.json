@@ -7,7 +7,7 @@
     "courses": [
         {
           "name": "Kubernetes, de principiante a experto",
-          "icons": "javascript",
+          "icons": "dms",
           "entry": "2022-04-01T19:00:00Z",
           "actuality": true,
           "egress": "2022-04-30T19:00:00Z",
@@ -15,7 +15,7 @@
         },
         {
           "name": "Docker, de principiante a experto",
-          "icons": "javascript",
+          "icons": "dms",
           "entry": "2022-04-01T19:00:00Z",
           "actuality": true,
           "egress": "2022-04-30T19:00:00Z",
@@ -23,7 +23,7 @@
         },
         {
           "name": "DevOps Crash Course: Learn Jenkins Docker Kubernetes GIT",
-          "icons": "javascript",
+          "icons": "dms",
           "entry": "2022-03-01T19:00:00Z",
           "actuality": false,
           "egress": "2022-03-30T19:00:00Z",
@@ -31,7 +31,7 @@
         },
         {
           "name": "Install NGINX, PHP, MySQL, SSL & WordPress on Ubuntu",
-          "icons": "javascript",
+          "icons": "dms",
           "entry": "2022-01-01T19:00:00Z",
           "actuality": false,
           "egress": "2022-02-30T19:00:00Z",
