@@ -10,13 +10,7 @@
     "egress": "0000-00-00T00:00:00Z",
     "filename": "bigtree.md",
     "link": "bigtree",
-    "languaje": {
-      "code": "Smarty PHP",
-      "php": 7,
-      "javascript": "jQuery",
-      "css": "bootstrap",
-      "storage": "MySQL"
-    }
+    "languaje": {}
   },
   {
     "name": "Afimpel.com",
