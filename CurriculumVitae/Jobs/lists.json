@@ -1,5 +1,18 @@
 [
   {
+    "name": "Bigtree Studio",
+    "city": "C.A.B.A.",
+    "jobs": "Software Engineer",
+    "type": "Tiempo Completo",
+    "icons": "php",
+    "entry": "2022-06-06T09:00:00Z",
+    "actuality": true,
+    "egress": "0000-00-00T00:00:00Z",
+    "filename": "bigtree.md",
+    "link": "bigtree",
+    "languaje": {}
+  },
+  {
     "name": "Afimpel.com",
     "city": "C.A.B.A.",
     "jobs": "Desarrollo Linux & Web",
