@@ -1,5 +1,18 @@
 [
-  {
+   {
+    "name": "Biwini.",
+    "city": "Buenos Aires",
+    "jobs": "Software Engineer",
+    "type": "Crontato",
+    "icons": "code",
+    "entry": "2022-12-13T09:00:00Z",
+    "actuality": true,
+    "egress": "2022-12-01T19:00:00Z",
+    "filename": "Biwini.md",
+    "link": "Biwini",
+    "languaje": {}
+  },
+ {
     "name": "Afimpel.com",
     "city": "C.A.B.A.",
     "jobs": "Desarrollo Linux & Web",
