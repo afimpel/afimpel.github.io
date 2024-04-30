@@ -9,16 +9,16 @@
           "name": "Kubernetes, de principiante a experto",
           "icons": "storage",
           "entry": "2022-04-01T19:00:00Z",
-          "actuality": true,
-          "egress": "2022-04-30T19:00:00Z",
+          "actuality": false,
+          "egress": "2022-09-30T19:00:00Z",
           "url": "//www.udemy.com/course/kubernetes-de-principiante-a-experto"
         },
         {
           "name": "Docker, de principiante a experto",
           "icons": "storage",
           "entry": "2022-04-01T19:00:00Z",
-          "actuality": true,
-          "egress": "2022-04-30T19:00:00Z",
+          "actuality": false,
+          "egress": "2022-09-30T19:00:00Z",
           "url": "//www.udemy.com/course/docker-de-principiante-a-experto"
         },
         {
