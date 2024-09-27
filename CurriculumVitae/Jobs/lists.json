@@ -1,4 +1,22 @@
-[
+[{
+  "name": "IBBA GROUP",
+  "city": "Buenos Aires",
+  "jobs": "DevOps",
+  "type": "Crontato",
+  "icons": "developer_board",
+  "entry": "2024-6-01T09:00:00Z",
+  "actuality": true,
+  "egress": "2022-04-17T19:00:00Z",
+  "filename": "ibba.md",
+  "link": "ibba",
+  "languaje": {
+    "dns": "cloudflare",
+    "developer_board": "linode & DigitalOcean",
+    "php": "Larabel",
+    "javascript": "React & vue",
+    "storage": "MySQL"
+  }
+},
   {
      "name": "Afimpel.com",
      "city": "C.A.B.A.",
