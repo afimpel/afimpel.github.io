@@ -1,12 +1,12 @@
 [{
   "name": "IBBA GROUP",
-  "city": "Buenos Aires",
+  "city": "C.A.B.A.",
   "jobs": "DevOps",
   "type": "Crontato",
   "icons": "developer_board",
   "entry": "2024-06-01T09:00:00Z",
-  "actuality": true,
-  "egress": "2022-04-17T19:00:00Z",
+  "actuality": false,
+  "egress": "2026-02-27T19:00:00Z",
   "filename": "ibba.md",
   "link": "ibba",
   "languaje": {
