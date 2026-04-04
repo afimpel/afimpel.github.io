@@ -6,8 +6,48 @@
     "link": "udemy",
     "courses": [
         {
+          "name": "DevOps 101",
+          "icons": "cloud",
+          "entry": "2026-02-01T19:00:00Z",
+          "actuality": false,
+          "egress": "2026-03-30T19:00:00Z",
+          "url": "//www.udemy.com/course/devops-101-buddy"
+        },
+        {
+          "name": "CI CD pipeline - Devops Automation in 1 hr",
+          "icons": "cloud",
+          "entry": "2026-02-01T19:00:00Z",
+          "actuality": false,
+          "egress": "2026-03-30T19:00:00Z",
+          "url": "//www.udemy.com/course/ci-cd-pinepline-devops-automation-in-1-hr"
+        },
+        {
+          "name": "Curso de VPN SITE-TO-SITE + IPSEC",
+          "icons": "cloud",
+          "entry": "2026-02-01T19:00:00Z",
+          "actuality": false,
+          "egress": "2026-03-30T19:00:00Z",
+          "url": "//www.udemy.com/course/curso-de-vpn-site-to-site-ipsec"
+        },
+        {
+          "name": "Curso de VPN SITE-TO-SITE + IPSEC",
+          "icons": "router",
+          "entry": "2026-02-01T19:00:00Z",
+          "actuality": false,
+          "egress": "2026-03-30T19:00:00Z",
+          "url": "//www.udemy.com/course/curso-de-vpn-site-to-site-ipsec"
+        },
+        {
+          "name": "Tailwind CSS: El curso definitivo",
+          "icons": "css",
+          "entry": "2023-04-01T19:00:00Z",
+          "actuality": false,
+          "egress": "2023-09-30T19:00:00Z",
+          "url": "//www.udemy.com/course/tailwind-css-el-curso-definitivo"
+        },
+        {
           "name": "Kubernetes, de principiante a experto",
-          "icons": "storage",
+          "icons": "cloud",
           "entry": "2022-04-01T19:00:00Z",
           "actuality": false,
           "egress": "2022-09-30T19:00:00Z",
@@ -15,7 +55,7 @@
         },
         {
           "name": "Docker, de principiante a experto",
-          "icons": "storage",
+          "icons": "cloud",
           "entry": "2022-04-01T19:00:00Z",
           "actuality": false,
           "egress": "2022-09-30T19:00:00Z",
@@ -23,7 +63,7 @@
         },
         {
           "name": "DevOps Crash Course: Learn Jenkins Docker Kubernetes GIT",
-          "icons": "storage",
+          "icons": "cloud",
           "entry": "2022-03-01T19:00:00Z",
           "actuality": false,
           "egress": "2022-03-30T19:00:00Z",
@@ -31,7 +71,7 @@
         },
         {
           "name": "Install NGINX, PHP, MySQL, SSL & WordPress on Ubuntu",
-          "icons": "storage",
+          "icons": "cloud",
           "entry": "2022-01-01T19:00:00Z",
           "actuality": false,
           "egress": "2022-02-30T19:00:00Z",
