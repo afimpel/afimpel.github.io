@@ -23,14 +23,6 @@
         },
         {
           "name": "Curso de VPN SITE-TO-SITE + IPSEC",
-          "icons": "cloud",
-          "entry": "2026-02-01T19:00:00Z",
-          "actuality": false,
-          "egress": "2026-03-30T19:00:00Z",
-          "url": "//www.udemy.com/course/curso-de-vpn-site-to-site-ipsec"
-        },
-        {
-          "name": "Curso de VPN SITE-TO-SITE + IPSEC",
           "icons": "router",
           "entry": "2026-02-01T19:00:00Z",
           "actuality": false,
