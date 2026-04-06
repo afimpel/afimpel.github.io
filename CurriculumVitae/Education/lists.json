@@ -1,20 +1,5 @@
 [
   {
-    "name": "IDETEL",
-    "city": "C.A.B.A.",
-    "type": "Programación",
-    "icons": "dialpad",
-    "link": "idetel",
-    "courses": [
-      {
-        "name": "Telefoniaip bajo sistemas de codigo abierto (Asterix)",
-        "entry": "2019-08-01T19:00:00Z",
-        "actuality": false,
-        "egress": "2019-10-30T19:00:00Z"
-      }
-    ]
-  },
-  {
     "name": "educacionIT",
     "city": "C.A.B.A.",
     "type": "Programación",
@@ -101,6 +86,21 @@
         "actuality": false,
         "egress": "2017-06-25T19:00:00Z",
         "certifice": "J2se.pdf"
+      }
+    ]
+  },
+  {
+    "name": "IDETEL",
+    "city": "C.A.B.A.",
+    "type": "Programación",
+    "icons": "dialpad",
+    "link": "idetel",
+    "courses": [
+      {
+        "name": "Telefoniaip bajo sistemas de codigo abierto (Asterix)",
+        "entry": "2019-08-01T19:00:00Z",
+        "actuality": false,
+        "egress": "2019-10-30T19:00:00Z"
       }
     ]
   },
