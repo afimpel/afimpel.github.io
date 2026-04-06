@@ -1,70 +1,71 @@
-[{
-  "name": "IBBA GROUP",
-  "city": "C.A.B.A.",
-  "jobs": "DevOps",
-  "type": "Crontato",
-  "icons": "developer_board",
-  "entry": "2024-06-01T09:00:00Z",
-  "actuality": false,
-  "egress": "2026-02-27T19:00:00Z",
-  "filename": "ibba.md",
-  "link": "ibba",
-  "languaje": {
-    "dns": "cloudflare",
-    "developer_board": "linode & DigitalOcean",
-    "php": "Larabel",
-    "javascript": "React & vue",
-    "storage": "MySQL"
-  }
-},
+[
   {
-     "name": "Afimpel.com",
-     "city": "C.A.B.A.",
-     "jobs": "Desarrollo Linux & Web",
-     "type": "Freelancer",
-     "icons": "code",
-     "entry": "2001-03-01T09:00:00Z",
-     "actuality": true,
-     "egress": "0000-00-00T00:00:00Z",
-     "filename": "afimpelcom.md",
-     "link": "afimpelcom",
-     "languaje": {},
-     "works": [
-       {
-         "name": "Radio Factory FM 100.1",
-         "city": "Urdinarrain, Entre Ríos",
-         "entry": "2001-03-01T09:00:00Z",
-         "jobs": "Software Engineer",
-         "actuality": true,
-         "egress": "0000-00-00T00:00:00Z",
-         "filename": "radiourdi.md",
-         "link": "radiourdi",
-         "icons": "php",
-         "website": "//www.radiourdi.com.ar",
-         "languaje": {
-           "code": "Smarty PHP",
-           "php": 7,
-           "css": "bootstrap",
-           "storage": "MySQL",
-           "javascript": "AngulaJS"
-         }
-       },
-       {
-         "name": "PortServices SH.",
-         "city": "C.A.B.A.",
-         "entry": "2011-10-01T09:00:00Z",
-         "jobs": "Software Engineer",
-         "actuality": true,
-         "egress": "0000-00-00T00:00:00Z",
-         "filename": "portservices.md",
-         "link": "portservices",
-         "icons": "php",
-         "website": "//www.portservices.com.ar",
-         "languaje": {}
-       }
-     ]
-   },
-   {
+    "name": "Afimpel.com",
+    "city": "C.A.B.A.",
+    "jobs": "Desarrollo Linux & Web",
+    "type": "Freelancer",
+    "icons": "code",
+    "entry": "2001-03-01T09:00:00Z",
+    "actuality": true,
+    "egress": "0000-00-00T00:00:00Z",
+    "filename": "afimpelcom.md",
+    "link": "afimpelcom",
+    "languaje": {},
+    "works": [
+      {
+        "name": "Radio Factory FM 100.1",
+        "city": "Urdinarrain, Entre Ríos",
+        "entry": "2001-03-01T09:00:00Z",
+        "jobs": "Software Engineer",
+        "actuality": true,
+        "egress": "0000-00-00T00:00:00Z",
+        "filename": "radiourdi.md",
+        "link": "radiourdi",
+        "icons": "php",
+        "website": "//www.radiourdi.com.ar",
+        "languaje": {
+          "code": "Smarty PHP",
+          "php": 7,
+          "css": "bootstrap",
+          "storage": "MySQL",
+          "javascript": "AngulaJS"
+        }
+      },
+      {
+        "name": "PortServices SH.",
+        "city": "C.A.B.A.",
+        "entry": "2011-10-01T09:00:00Z",
+        "jobs": "Software Engineer",
+        "actuality": true,
+        "egress": "0000-00-00T00:00:00Z",
+        "filename": "portservices.md",
+        "link": "portservices",
+        "icons": "php",
+        "website": "//www.portservices.com.ar",
+        "languaje": {}
+      }
+    ]
+  },
+  {
+    "name": "IBBA GROUP",
+    "city": "C.A.B.A.",
+    "jobs": "DevOps",
+    "type": "Crontato",
+    "icons": "developer_board",
+    "entry": "2024-06-01T09:00:00Z",
+    "actuality": false,
+    "egress": "2026-02-27T19:00:00Z",
+    "filename": "ibba.md",
+    "link": "ibba",
+    "languaje": {
+      "dns": "cloudflare",
+      "developer_board": "linode & DigitalOcean",
+      "php": "Larabel",
+      "javascript": "React & vue",
+      "storage": "MySQL"
+    }
+  },
+  {
     "name": "MOW Player",
     "city": "Buenos Aires",
     "jobs": "Software Engineer",
